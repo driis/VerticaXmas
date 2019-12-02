@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 246
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Set-Cookie: ARRAffinity=de248d3b2772d9ad3c9626c7ab280292a51b5c997e8b721d39fd0cc1323af0fb;Path=/;HttpOnly;Domain=vertica-xmas2019.azurewebsites.net,ARRAffinity=805adba2906fde3a51837d5d7a81fcdf2bb9a438e2774bf003bd3a0684a0a561;Path=/;HttpOnly;Domain=vertica-xmas2019.azurewebsites.net
+Date: Mon, 02 Dec 2019 18:47:24 GMT
+Connection: close
+
+{"id":"5f6d0543-a979-4144-8858-154a7016843b","credentials":{"username":"Participant","password":"fr5ZS6NT2gQE1VL0hLZmB1X8HhGAW4"}}
