@@ -1,0 +1,109 @@
+{
+  "zones": [
+    {
+      "reindeer": "Dasher",
+      "countryCode": "US",
+      "cityName": "Miami Springs",
+      "center": {
+        "lat": 25.8195,
+        "lon": -80.2895
+      },
+      "radius": {
+        "unit": "foot",
+        "value": 6522.296658133328
+      }
+    },
+    {
+      "reindeer": "Cupid",
+      "countryCode": "NZ",
+      "cityName": "Hawera",
+      "center": {
+        "lat": -39.5795,
+        "lon": 174.278
+      },
+      "radius": {
+        "unit": "kilometer",
+        "value": 1.644
+      }
+    },
+    {
+      "reindeer": "Dancer",
+      "countryCode": "HT",
+      "cityName": "Hinche",
+      "center": {
+        "lat": 19.143,
+        "lon": -72.004
+      },
+      "radius": {
+        "unit": "meter",
+        "value": 1994
+      }
+    },
+    {
+      "reindeer": "Blitzen",
+      "countryCode": "BR",
+      "cityName": "Brumado",
+      "center": {
+        "lat": -14.21,
+        "lon": -41.67
+      },
+      "radius": {
+        "unit": "foot",
+        "value": 5413.374992917501
+      }
+    },
+    {
+      "reindeer": "Comet",
+      "countryCode": "RU",
+      "cityName": "Artemovskiy",
+      "center": {
+        "lat": 57.3652,
+        "lon": 61.8698
+      },
+      "radius": {
+        "unit": "kilometer",
+        "value": 1.814
+      }
+    },
+    {
+      "reindeer": "Vixen",
+      "countryCode": "US",
+      "cityName": "Jackson",
+      "center": {
+        "lat": 38.3485,
+        "lon": -120.7728
+      },
+      "radius": {
+        "unit": "kilometer",
+        "value": 1.767
+      }
+    },
+    {
+      "reindeer": "Donner",
+      "countryCode": "MX",
+      "cityName": "Jaltipan",
+      "center": {
+        "lat": 17.94,
+        "lon": -94.74
+      },
+      "radius": {
+        "unit": "meter",
+        "value": 1964
+      }
+    },
+    {
+      "reindeer": "Prancer",
+      "countryCode": "IN",
+      "cityName": "Kochi",
+      "center": {
+        "lat": 10.015,
+        "lon": 76.2239
+      },
+      "radius": {
+        "unit": "foot",
+        "value": 6476.364991526755
+      }
+    }
+  ],
+  "token": "OUn2BREa6Iqmi2hgVMQIQiBHh2ANSmVw1ygtySs56tRnuIrMQjHiS5mQw4dBMxlGEYy5tqGZecaqmCQwXqWU7Q=="
+}

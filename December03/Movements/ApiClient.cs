@@ -19,16 +19,15 @@ namespace Dec03
             return id;
         }
 
-        public async Task SubmitPosition(SantaPath path)
+        public async Task<JObject> SubmitPosition(SantaPath path)
         {
             var position = path.CalculateNewPosition();
 
             var result = new {id = path.Id, position = new {lat = position.Lat, lon = position.Lon}};
 
             var response = await Client.PostAsJsonAsync("api/santarescue", result);
-            Console.WriteLine("api/santarescue - got result:");
-            Console.WriteLine(await response.Content.ReadAsStringAsync());
             response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsAsync<JObject>();
         }
     }
 }

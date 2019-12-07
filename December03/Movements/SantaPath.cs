@@ -18,7 +18,7 @@ namespace Dec03
             const double earth = 6378.137; // radius of the earth in kilometer
             double m = 1.0 / (2.0 * Math.PI / 360.0 * earth) / 1000.0;  // 1 meter in degree
             var newLat = CanePosition.Lat + yDelta * m;
-            var newLon = CanePosition.Lon + (xDelta * m) / (Math.Cos(CanePosition.Lat * (Math.PI / 180)));
+            var newLon = CanePosition.Lon + xDelta * m / Math.Cos(CanePosition.Lat * (Math.PI / 180));
             return new Position(newLat,newLon);
         }
     }
