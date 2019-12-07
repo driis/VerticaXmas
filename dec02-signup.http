@@ -1,8 +1,0 @@
-POST https://vertica-xmas2019.azurewebsites.net/api/participate
-Content-Type: application/json
-
-{
-  "fullName": "Dennis Riis",
-  "emailAddress": "dr@driis.dk",
-  "subscribeToNewsletter": true
-}

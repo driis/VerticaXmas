@@ -1,0 +1,21 @@
+@host = https://vertica-xmas2019.azurewebsites.net
+POST {{host}}/api/participate
+Content-Type: application/json
+
+{
+  "fullName": "Dennis Riis",
+  "emailAddress": "dr@driis.dk",
+  "subscribeToNewsletter": true
+}
+
+###  December 4th 
+POST {{host}}/api/santarescure
+Content-Type: application/json
+
+{
+  "id": "5f6d0543-a979-4144-8858-154a7016843b",
+  "position": {
+    "lat": 74.75344175982161,
+    "lon": -42.221968936910784
+  }
+}
